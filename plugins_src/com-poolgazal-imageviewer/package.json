@@ -1,0 +1,31 @@
+{
+  "name": "com-poolgazal-imageviewer",
+  "version": "1.0.0",
+  "description": "This plugin is intended to show a picture from an URL into a Image Viewer with zoom features.",
+  "cordova": {
+    "id": "com-poolgazal-imageviewer",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/poolgazal/imageviewer"
+  },
+  "keywords": [
+    "cordova",
+    "imageviewer",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Moussa Mokhtari",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "3.2.2"
+  }
+}

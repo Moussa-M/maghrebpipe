@@ -1,0 +1,13 @@
+repositories{
+  jcenter()
+  maven { url 'https://jitpack.io' }
+
+}
+
+dependencies {
+   implementation 'com.github.MikeOrtiz:TouchImageView:1.4.0'
+}
+
+android {
+
+}
