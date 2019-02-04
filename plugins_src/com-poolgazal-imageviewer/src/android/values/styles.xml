@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-<style name="ImageViewerTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
-
-</style>
-    <style name="Translucent" parent="@android:style/Theme.DeviceDefault.NoActionBar">
-        <item name="android:windowIsTranslucent">true</item>
-    </style>
-</resources>
