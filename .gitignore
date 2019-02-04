@@ -18,6 +18,8 @@ npm-debug.log*
 .sass-cache/
 .tmp/
 .versions/
+.gradle/
+.vscode/
 coverage/
 www/
 node_modules/
@@ -25,6 +27,7 @@ tmp/
 temp/
 platforms/
 plugins/
+plugins_src/
 plugins/android.json
 plugins/ios.json
 $RECYCLE.BIN/
