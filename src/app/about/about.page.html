@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title text-capitalize >{{ 'about' | translate }}</ion-title>
+    <ion-buttons slot="end">
+     <app-lang ></app-lang>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content text-center padding>
+	<ion-grid>
+	  <ion-row justify-content-center>
+	  	<ion-thumbnail>
+			<img  src="/assets/favicon.png"/>
+		</ion-thumbnail>
+	  </ion-row>
+	</ion-grid>
+	
+	<ion-text text-center color="dark">
+	  <p *ngIf="getTranslateService().currentLang == 'fr'">
+			L’entreprise Maghreb Pipe Industries a développé dès sa création en 2004 une expertise de premier plan dans la fabrication de systèmes de canalisations en PRV à destination des utilisateurs dans le domaine des grands transferts, ainsi que pour des applications dans les réseaux d’assainissement,  d’irrigation, d’eau potable et d’eaux industrielles.
+
+			L’expertise développée à ce jour, a permis une totale maîtrise de la nouvelle technologie de production de canalisations en PRV donnant à nos produits une qualité de standards internationaux.
+			
+			La nature de nos produits, notamment en ce qui concerne les  produits spécifiques a naturellement permis de développer une parfaite qualité d’écoute du client, à l’effet de répondre exactement aux caractéristiques techniques désirées, afin de satisfaire nos clients.</p>
+<p *ngIf="getTranslateService().currentLang == 'ar'">
+		منذ إنشائها في عام 2004 ، طورت مغرب لصناعة الأنابيب خبرة رائدة في تصنيع أنظمة أنابيب PRV للمستخدمين في مجال التحويلات الكبيرة ، وكذلك للتطبيقات في شبكات الصرف الصحي. الري ومياه الشرب والمياه الصناعية.
+
+		إن الخبرة التي تم تطويرها حتى الآن ، سمحت بالتحكم الكامل في التكنولوجيا الجديدة لإنتاج خطوط الأنابيب في PRV مما يعطي منتجاتنا جودة للمعايير الدولية.
+		
+		إن طبيعة منتجاتنا ، خاصة فيما يتعلق بمنتجات معينة ، سمحت بشكل طبيعي بتطوير جودة استماع مثالية للعميل ، من أجل تلبية الخصائص التقنية المطلوبة بالضبط ، من أجل إرضاء عملائنا.
+</p>
+	</ion-text>
+</ion-content>

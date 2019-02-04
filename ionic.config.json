@@ -1,5 +1,7 @@
 {
   "name": "maghrebpipe",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

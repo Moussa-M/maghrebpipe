@@ -1,0 +1,11 @@
+<ion-list lines="none">
+	<ion-item button (click)="selectLang('ar')">
+		<ion-icon slot="start"  src="assets/ar.svg"></ion-icon>
+	     <ion-label text-capitalize  >{{'arabic'|translate}}</ion-label>
+	</ion-item>
+	<hr>
+	<ion-item button (click)="selectLang('fr')">
+		<ion-icon slot="start" src="assets/fr.svg"></ion-icon>
+	     <ion-label text-capitalize  >{{'france'|translate}}</ion-label>
+	</ion-item>
+</ion-list>

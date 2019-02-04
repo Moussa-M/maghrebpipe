@@ -1,0 +1,1 @@
+La réparation des défauts ou des dommages aux tuyaux ou aux raccords ne doit être effectuée que sous le contrôle des intérêts techniques de la société.

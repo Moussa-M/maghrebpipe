@@ -1,0 +1,13 @@
+##### Les tubes plastiques renforcés de verre sont utilisés dans les applications civiles et industrielles suivantes:
+- Lignes d'égout
+- Lignes d'alimentation en eau
+- Systèmes d'irrigation
+- Systèmes d'extinction d'incendie
+- Systèmes de traitement des eaux usées
+- Points de rejet d'eau de mer
+- Transmission de liquides corrosifs
+- Systèmes de désulfuration
+- Usine de dessalement de l'eau
+- Voies navigables industrielles
+- Système de refroidissement par eau
+- Projets de refroidissement central

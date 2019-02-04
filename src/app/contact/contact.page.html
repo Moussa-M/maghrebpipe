@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title text-capitalize >{{ 'contact' | translate }}</ion-title>
+    <ion-buttons slot="end">
+       <app-lang></app-lang>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+		<div #map_canvas id="map_canvas"></div>
+		<ion-item>
+		 <ion-icon slot="start" color="medium" name="ios-map"></ion-icon>
+		  <ion-label position="fixed">{{ 'address' | translate }}</ion-label>
+		  <p *ngIf="showOfficeAddress">{{ 'contact_address_office' | translate }}</p>
+		  <p *ngIf="!showOfficeAddress">{{ 'contact_address_factory' | translate }}</p>
+		</ion-item>
+		<ion-item>
+			<ion-icon slot="start" color="medium" name="ios-call"></ion-icon>
+		  <ion-label position="fixed">{{ 'phone' | translate }}</ion-label>
+		  <p dir="ltr" *ngIf="showOfficeAddress">+213 23 80 42 06</p>
+		  <p dir="ltr" *ngIf="!showOfficeAddress">+213 35 36 50 01</p>
+		</ion-item>
+		<ion-item>
+			<ion-icon slot="start" color="medium" name="ios-print"></ion-icon>
+		  <ion-label position="fixed">{{ 'fax' | translate }}</ion-label>
+		  <p dir="ltr" *ngIf="showOfficeAddress">+213 23 80 42 06</p>
+		  <p dir="ltr" *ngIf="!showOfficeAddress">+213 35 36 50 02</p>
+		</ion-item>
+		<ion-item>
+			<ion-icon slot="start" color="medium" name="ios-mail"></ion-icon>
+		  <ion-label position="fixed">{{ 'email' | translate }}</ion-label>
+		  <p dir="ltr">info@maghrebpipe.com</p>
+		</ion-item>
+
+</ion-content>

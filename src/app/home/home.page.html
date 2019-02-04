@@ -1,12 +1,19 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+  <ion-toolbar color="primary">
+    <ion-title text-capitalize>{{ 'menu' | translate }}</ion-title>
+
+    <ion-buttons slot="end">
+      <app-lang></app-lang>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+<ion-content >
+	<ion-list lines="none">
+
+      <ion-item button *ngFor="let menu of menus" (click)="go(menu)">
+        <ion-icon slot="start" color="medium" [name]="(menu.icon == 'ios-arrow-dropright' && translateService.currentLang=='ar') ? 'ios-arrow-dropleft' : menu.icon"></ion-icon>
+        <ion-label text-capitalize >{{menu.name | translate}}</ion-label>
+      </ion-item>
+    </ion-list>
 </ion-content>

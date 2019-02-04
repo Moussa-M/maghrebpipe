@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar color="primary">
+  	<ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{item.name|translate}}</ion-title>
+    <ion-buttons slot="end">
+      <app-lang></app-lang>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+      <ion-img [src]="item.image"></ion-img>
+      <ion-card-header>
+        <!-- <ion-card-subtitle>{{item.model}}</ion-card-subtitle> -->
+        <ion-card-title>{{item.name|translate}}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>{{item.desc}}.</p>
+      </ion-card-content>
+</ion-content>
