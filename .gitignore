@@ -18,11 +18,11 @@ npm-debug.log*
 .sass-cache/
 .tmp/
 .versions/
-.gradle/
+/.gradle
 
-platforms/
-plugins/
-plugins_src/
+platforms
+plugins
+/plugins_src
 coverage/
 www/
 node_modules/
